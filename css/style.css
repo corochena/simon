@@ -1,0 +1,142 @@
+body {
+  background-image: url(https://s-media-cache-ak0.pinimg.com/originals/7f/96/70/7f9670a503709b9ef808ef06a1cea8f9.jpg);
+}
+
+.base {
+  background-color: #222;
+  width: 470px;
+  height: 470px;
+  border-radius: 50%;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0 0 15px 5px rgba(0,0,0,0.85);
+}
+
+.controls {
+  background-color: beige;
+  color: #222;
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  margin: auto;
+  position: relative;
+  top: -80%;
+  text-align: center;
+  border: 20px solid #222;
+}
+
+.ctrl {
+  display: inline;
+  width: 33%;
+  /* border: 1px solid silver; */
+  border-radius: 5px;
+  font-family: Teko;
+  text-align: center;
+}
+
+.label {
+  position: relative;
+  top: 30px;
+  left: -25px;
+}
+
+h1 {
+  font-size: 280%;
+  font-family: Ultra;
+  font-weight: normal;
+  position: relative;
+  top: 40px;
+  margin-bottom: 50px;
+}
+
+.super {
+  font-size: 60%;
+  font-weight: normal;
+  position: relative;
+  top: -15px;
+}
+
+.led {
+  border: 4px dotted #111;
+  border-radius: 8px;
+  background-color: #303;
+  color: red;
+  padding: 0px 10px;
+  font-size: 200%;
+  font-family: VT323, monospace;
+  margin: 0px 0px 0px 10px;
+}
+
+.led:hover {
+  cursor: default;
+}
+
+button {
+  width: 30px;
+  height: 30px;
+  border: 4px solid #444;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px black;
+  margin: 5px auto;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+#start {
+  background-color: red;
+}
+
+#strict {
+  background-color: darkolivegreen;
+}
+
+/*
+#strictLed {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%; 
+  display: inline;
+  background-color: beige;
+  border-style: none;
+  position: relative;
+  top: -32px;
+  left: -27px;
+}
+*/
+
+.color {
+  position: relative;
+  width: 50%;
+  height: 50%;
+}
+
+#green {
+  border-top-left-radius: 100%;
+  background-color: green;
+  border-bottom: 20px solid "#222";
+}
+
+#red {
+  border-top-right-radius: 100%;
+  background-color: #800000;
+  left: 50%;
+  margin-top: -50%;
+}
+
+#yellow {
+  border-bottom-left-radius: 100%;
+  background-color: #cca300;
+}
+
+#blue {
+  border-bottom-right-radius: 100%;
+  background-color: #222288;
+  left: 50%;
+  margin-top: -50%;
+}
